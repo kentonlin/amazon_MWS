@@ -35,7 +35,7 @@ router.get('/:resource/:id', function(req, res, next){
           confirmation: 'fail',
           message: 'Not Found'
         });
-        return
+        return;
       }
       res.json({
         confirmation: 'success',
@@ -63,7 +63,7 @@ router.post('/:resource', function(req, res, next){
         result: result
       });
       return;
-    })
+    });
   }
 
 });

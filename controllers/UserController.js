@@ -37,4 +37,4 @@ module.exports = {
   delete: function () {
 
   }
-}
+};
